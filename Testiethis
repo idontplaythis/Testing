@@ -368,17 +368,11 @@ RS.RenderStepped:Connect(function()
             elseif ping > 70 then
                 getgenv().Memelouse3150.Silent.PredictionVelocity = 0.1345
             elseif ping > 60 then
-                getgenv().Memelouse3150.Silent.PredictionVelocity = 0.132
+                    getgenv().Memelouse3150.Silent.PredictionVelocity = 0.132
             elseif ping > 50 then
                 getgenv().Memelouse3150.Silent.PredictionVelocity = 0.129668
             elseif ping > 40 then
                 getgenv().Memelouse3150.Silent.PredictionVelocity = 0.12405
-            elseif ping > 30 then
-                getgenv().Memelouse3150.Silent.PredictionVelocity = 0.11
-            elseif ping > 20 then
-                getgenv().Memelouse3150.Silent.PredictionVelocity = 0.102
-            elseif ping > 10 then
-                getgenv().Memelouse3150.Silent.PredictionVelocity = 0.9
             end
         end
 	end
